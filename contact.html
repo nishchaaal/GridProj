@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
-    <title>Jack&Elwood - Home</title>
+    <title>Jack&Elwood - Contact</title>
 </head>
 <body>
     
     <!-- NAVIGATION -->
 
-    <header class="header header-home main-grid">
+    <header class="header main-grid">
         <div class="header-content">
             <a href="index.html" class="logo-link">
                 <img src="./img/logo.png" alt="Logo" class="logo">
@@ -29,9 +29,9 @@
             <nav class="nav">
                 <button aria-label="Close navigation" class="close-nav">&times;</button>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html" class="nav-link current">Home</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link current">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,30 +39,35 @@
 
     <!-- MAIN -->
 
-    <main class="main">
-        <section class="hero main-grid">
-            <h1 class="hero-title">The only marketing agency on <span class="accent-color">a mission from God</span>, fully dedicated to increase your web traffic.</h1>
-            <p class="subtitle">We’re two brothers from Chicago that are trying to pay back our debt. We can help you with SEO, SEM content marketing and whatever else.</p>
-            <a class="btn btn-primary">Contact</a>
-        </section>
+    <main class="main-grid main-template">
 
-        <section class="info main-grid">
-            <div class="col">
-                <h2 class="section-title section-title-center">About Us</h2>
-                <p>We grew up in downtown Chicago, and we used to play in a band. <strong>Jake loves fried chicken, and Elwood loves dry white toast.</strong></p>
-            </div>
-            <div class="col">
-                <h2 class="section-title section-title-center">Our skills</h2>
-                <p>Elwood is an expert in <strong>SEO, SEM, and driving from the police.</strong> Jake is our <strong>social media specialist</strong>, and he has an amazing voice.</p>
-            </div>
-            <div class="col">
-                <h2 class="section-title section-title-center">Get in touch</h2>
-                <p>Send us an email with some info about what help you need and <strong>we’ll drive over to your place</strong> in our Bluesmobile the following day to discuss the deal.</p>
-            </div>
-        </section>
+        <h1 class="page-title">CONTACT.</h1>
+        <p class="page-subtitle">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+        <img class="main-img" src="./img/contact.jpg" alt="Letterboxes">
+
+        <div class="secondary-text">
+            <h2 class="section-title">Getting in touch with us</h2>
+            <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+        </div>
+
+        <div class="main-text">
+            <form class="contact-form" action="#">
+                <label class="fname-label" for="fname">First Name</label>
+                <input class="fname-input" type="text" id="firstname">
+
+                <label class="lname-label" for="lname">Last Name</label>
+                <input class="lname-input" type="text" id="lastname">
+
+                <label class="message-label" for="message">Message</label>
+                <textarea class="message-textarea" id="message"></textarea>
+
+                <button class="btn btn-primary btn-form">Send</button>
+
+            </form>
+        </div>
     </main>
 
-
+ 
     <!-- FOOTER -->
     
     <footer class="footer main-grid">
