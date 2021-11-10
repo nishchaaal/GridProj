@@ -208,6 +208,11 @@ h1,h2,strong {
     justify-self: start;
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ffc400;
+}
+
 .btn-form {
     justify-self: end;
 }
